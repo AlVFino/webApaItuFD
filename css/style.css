@@ -1,0 +1,57 @@
+.feature HTML-feature .feature-icon ion-icon[name=logo-html5] {
+  font-size: 2.5rem;
+}
+.feature CSS-feature .feature-icon ion-icon[name=logo-css3] {
+  font-size: 2.5rem;
+}
+.feature JavaScript-feature .feature-icon ion-icon[name=logo-javascript] {
+  font-size: 2.5rem;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+.btn-primary:hover {
+  opacity: 0.8;
+}
+
+.btn-secondary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #6c757d;
+  color: white;
+}
+.btn-secondary:hover {
+  opacity: 0.8;
+}
+
+.btn-warning {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #dc3545;
+  color: white;
+}
+.btn-warning:hover {
+  opacity: 0.8;
+}
+
+.job-matching .list-group .list-group-item {
+  transition: background-color 0.1s, color 0.2s;
+  cursor: pointer;
+}
+.job-matching .list-group .list-group-item:hover {
+  background-color: #ffd000;
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */

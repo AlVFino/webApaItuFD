@@ -1,0 +1,65 @@
+$languages: (
+  "HTML": "logo-html5",
+  "CSS": "logo-css3",
+  "JavaScript": "logo-javascript"
+);
+
+.feature {
+  @each $language, $icon in $languages {
+    #{$language}-feature {
+      .feature-icon {
+        ion-icon[name="#{$icon}"] {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+
+$button-states: (primary, secondary, warning);
+
+@each $state in $button-states {
+  .btn-#{$state} {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+
+    @if $state == primary {
+      background-color: #007bff; 
+      color: white;
+    }
+    @else if $state == secondary {
+      background-color: #6c757d;
+      color: white;
+    }
+    @else if $state == warning {
+      background-color: #dc3545; 
+      color: white;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+ 
+.job-matching {
+    .list-group {
+      .list-group-item {
+        transition: background-color 0.1s, color 0.2s;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #ffd000;
+          color: #ffffff; 
+        }
+      }
+    }
+  }
+  
+
+  
